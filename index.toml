@@ -145,10 +145,6 @@ file = "config/nethersdelight-common.toml"
 hash = "5ba2308d2ee744824aba787e103724e3804a30141a81477bcf9a5ed9f3208a8e"
 
 [[files]]
-file = "config/openloader/advanced_options.json"
-hash = "10f119cab2a497508c86a8d67b26916aa6dda6fcfc82b1a741f347ef8fe453d9"
-
-[[files]]
 file = "config/packmenu.cfg"
 hash = "a3b07ab038bb46d9d3d545d8b4ef9a9ebb9c27e5f58507a9af288cb62bab6a0f"
 
@@ -211,62 +207,6 @@ hash = "7f948335db819ceff9bad0a265ef6f000e1e0a2484cad0a963441a01ecc1f340"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "4d5b9759454899dcc38d7b29733f1af32ff6448aaa31f95251a14a4c732f0784"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/bound_scroll.json"
-hash = "62c1a4e4d113b8cf4febbd8c10eed774a7d091d59d3ff7d5a2f59b65ad244a76"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/bound_scroll_hor.json"
-hash = "88fc3a9f0a95888105ec2dbdfb09a5656315525d00ebc30097e18fd1ac58f1d9"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/return_scroll.json"
-hash = "090ecf3f4b81076f3b33e955da359952e238218d7952257cb21c73e3e4d2ccc8"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/return_scroll_hor.json"
-hash = "faf8f573068e4250ded3350be7f6f933828f2384f6808ce275fa85cdd8349f9c"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_dust_crush.json"
-hash = "d41d1b6d3811af43bf9e0e8e0a7fd87f77a6eaaaa4b0859d3a86999bf6301555"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_dust_mill.json"
-hash = "ae599c4599e40b7bf6bddf0ee0ffbfefec6d417048d3eeff84e248cb85411bc0"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_plate.json.disabled"
-hash = "facd2bb22e97560c8996f947afd3e1d8714945bceac326665450492c75149489"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_scroll.json"
-hash = "019b40acfc04ad15cbf75f33c355359d35e2d73a4ac06796cdae88bfd54715f0"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_scroll_hor.json"
-hash = "abf408863308674ce0388446a4cab331034920d81d9285e3872cb13f15e389f2"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_stone.json"
-hash = "b6dfd4dd20d60b7cbd658c3233c4f24dffb4d3256e5e8a973c654fced7b9aa95"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/warp_stone_alt.json"
-hash = "96c28559a6cc93747d5370b09b1b45b51e154229717de33da9194038fb4fd775"
-
-[[files]]
-file = "datapacks_/Comfort Data/data/waystones/recipes/waystone.json"
-hash = "de52c0973d3600260c402560eeb35a03034b686c3fa9d2b7844212dc7150b49a"
-
-[[files]]
-file = "datapacks_/Comfort Data/pack.mcmeta"
-hash = "c81ff075dc0929c2326c851c1c4a3d488717ea5c2f15e8cd3ce815947010f09c"
-
-[[files]]
-file = "datapacks_/Comfort Data/pack.png"
-hash = "4d76d1369997eb94916ec726d30fc8c84c499eed3069416ec376c2c5ead73e26"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -826,11 +766,6 @@ hash = "ea7f169d597e1cc71deaef6790d61d2fde3eaef28893a6754659100f20305baa"
 metafile = true
 
 [[files]]
-file = "mods/Libraries/open-loader.pw.toml"
-hash = "52cb232da32d2b14e863894585bed015e2a3595d10ede92d04d95134bb5373ad"
-metafile = true
-
-[[files]]
 file = "mods/Libraries/placebo.pw.toml"
 hash = "1890907ae234dc523efc41c5801f4bcc472fab407b63b748420e963bd34e183b"
 metafile = true
@@ -1088,178 +1023,6 @@ metafile = true
 [[files]]
 file = "packmenu/resources/!"
 hash = "e16f1596201850fd4a63680b27f603cb64e67176159be3d8ed78a4403fdb1700"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/consistencyplus/textures/block/credits.txt"
-hash = "a0b6ae70e439e7b88df4576b0b2a7aaa8395ef65a9a1083f4e7bb8d74ffd8939"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/consistencyplus/textures/block/polished_basalt.png"
-hash = "4cb71050482ab31c9f959bada97bda9ec75fa64099d9d221176094b267c4db26"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/consistencyplus/textures/block/polished_basalt_slab.png"
-hash = "b0c81a8a884728cd01ca029ea70831822bf74de83d1f3fb2d961f2162050cf26"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/consistencyplus/textures/block/polished_tuff.png"
-hash = "e76233b3c94fe3f9d686781f8c9d5e1a681275ff1dd28f18efab9ef7b7f7af80"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/consistencyplus/textures/block/polished_tuff_slab.png"
-hash = "d8c40b3d8939e5a190918e28f72fee35b11e8bef45cccc64af1f405743765027"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/minecraft/textures/gui/checkbox.png"
-hash = "acb1276603711cc4506c4a2641f469a50f8b1acff21b4cae08094ac9f0e533ab"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/accessibility.json"
-hash = "ae573090c5a8bd7632f3250cec2e87a1bb05ebb30c01bf6bfd0012edf1a26e32"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/comfort.json"
-hash = "143cea8f629226ce32f25901ca2e95f764a2f1cf78d15ae8df105447718a22f7"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/language.json"
-hash = "f3a7aae58eb00912384e6a488de321bff29f5676b488f9162bdbb02619e11085"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/mods.json"
-hash = "b99df335a213afe97f3f73d7e131f0b233e976097d877395f989bdd5b4626ca6"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/multiplayer.json"
-hash = "a6e1056ec4157a707caebac2c8a87268b70bedadb590a17e7e2cb47726c56a06"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/options.json"
-hash = "d814497b55e4ce76c00cac0a069d1ae3d4b8a5cd92b13919438fa371624482f3"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/quit.json"
-hash = "6f6c8dff7b795268e8f7dcd073ae40779cf9f68611df5bc162a3a21537216fd1"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/reloadbutton.json"
-hash = "f4ccac9f92aa430f9b22510e8d0bfc796043725698548eabfd2da4e2d0f9cc55"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/buttons/singleplayer.json"
-hash = "9ba20b6a05cfb0b08d0284c8befe1fbd1b888a618747dc6f78cc6061fbd6d0bf"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/lang/en_us.json"
-hash = "1f6106b02a41d45981077c5e40e2ff74c81b78a147ae84937e135d982a5e2293"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/blank.png"
-hash = "b25e7b74df71145ba9892691f6977dd3724042d18fdeaa1ad54ec76cefb35970"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/language.png"
-hash = "365de129126f38216754f4235d93b606f3df927bdbc3e1e144144225ce6df353"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/logo.png"
-hash = "e898c2c88a85aa7acca96979f03bb333d684efd909303830e6e99590d8033263"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/mods.png"
-hash = "4e3473c8589a86a557712ef446114f00fa7592b8179e19dbe471e92eeac72782"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/options.png"
-hash = "8e9ddd65982cf616dbe65f3c80a20c69eef09aa23d0a4dfe95f714a53c280260"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/quit.png"
-hash = "7ff3af6cc4c15cdfbb363b4285a42e4bfa07d68a68b6aba5e1aee832611e4db4"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/reload.png"
-hash = "1c604f6b00f608a8fea51eca981db51980d06a9c847e643e59e439d932a4d766"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/packmenu/textures/gui/widgets.png"
-hash = "26a3d4b8a23b75fdb7a0c5e8b7835ce8bdf98873a81695dde9f7010845edfe8b"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/powertool/textures/item/powertool.png"
-hash = "a4e0cf3d606c36d5a7caf8f8ee539300a670c0536b12eafa09755acbf7c0dfc2"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/tumbleweed/textures/entity/tumbleweed.png"
-hash = "6179bc29db1a9c296d6c0e7c9a5a4c9b8b791c400809d8bf6f108f8574ca1791"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/twigs/textures/block/cobblestone_bricks.png"
-hash = "6072b3b0913f2105eb6f541df3c94e7695ea782e53fadadef440da7f8601371c"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/twigs/textures/block/cracked_cobblestone_bricks.png"
-hash = "ee27decb12524aad4cd5216e776b64eabf82bef34784a310799ddef931ed4ceb"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/twigs/textures/block/credits.txt"
-hash = "a0b6ae70e439e7b88df4576b0b2a7aaa8395ef65a9a1083f4e7bb8d74ffd8939"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/twigs/textures/block/mossy_cobblestone_bricks.png"
-hash = "71ed79de9afef7bd6d88c2b0b128ffa8341c543220cba2f18c4fd8affebc27d6"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/models/block/warp_plate.json"
-hash = "18f8765f3f98d54348049b539af42d16bdfc59c858d1aaab9618569f0ef1a168"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/block/warp_plate.png"
-hash = "bd072ddfd5c8d884c292f6cb31b2e2474e8faf8e25651b289f8311130d5bf4ec"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/entity/portstone.png"
-hash = "85782db65d511dd3a489d49b07142349937fa50f82cf3f4f73e8f6816a8164c7"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/entity/sharestone_color.png"
-hash = "12143718b715a8eabb1e9ab65cffbe68c15bad6d68c108a2072b709bf735a52d"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/entity/waystone_active.png"
-hash = "a5b1f5dcdb6165c1363fc61f67b344accf0aa072762b40c6fbf71ed5187eb55d"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/item/!!!attuned_shard.png"
-hash = "ce9f46b0b7ba5cdc7eb4e0e756f94f5076faa4c4880c05d03e9941cfcb88010d"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/item/bound_scroll.png"
-hash = "25774e14df8cea5ff0c5feb8c4c377c53c0d96443f8c07da9a9796ddea5f378f"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/item/return_scroll.png"
-hash = "9676cd796e54711d4de27b1469488cca199050547a9a58c7eadf839ee71508fe"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/item/warp_dust.png"
-hash = "74b8d9b4066e4a7125a11581f88af584ba34b163b751de36c589bb55f2305f63"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/item/warp_scroll.png"
-hash = "671153a2182058430015f84639211ce866f6429997a36155c009b56030d8307c"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets_/waystones/textures/item/warp_stone.png"
-hash = "ddb8513df771e46f6d6f7940d1df9d1e97815a485b20e0f67812722f57840ce6"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/pack.mcmeta"
-hash = "ab2a8d5d201817b7fb3ceacd76cecc8a34ec836028b3fce1c341c46b23d64f1c"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/pack.png"
-hash = "4d76d1369997eb94916ec726d30fc8c84c499eed3069416ec376c2c5ead73e26"
 
 [[files]]
 file = "resourcepacks/bettervanillabuilding-bushy-leaves-addon.pw.toml"
