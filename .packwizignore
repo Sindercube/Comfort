@@ -1,0 +1,12 @@
+*.zip
+
+.github/
+.gitignore
+build/
+/assets/
+multimc/
+
+icon.png
+packwiz.json
+readme.md
+CNAME
