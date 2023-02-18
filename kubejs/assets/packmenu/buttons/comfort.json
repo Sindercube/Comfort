@@ -1,0 +1,10 @@
+{
+		"x": -100,
+		"y": 0,
+		"y": 0,
+		"width": 200,
+		"height": 20,
+		"langKey": "menu.direct_connect",
+		"action": "OPEN_GUI",
+		"data": "SINGLEPLAYER"
+}

@@ -1,0 +1,13 @@
+name = "Clayworks"
+filename = "../../clayworks-1.18.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "38e71509ffa36159aab240472a94e9332335e801"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4380997
+project-id = 592162

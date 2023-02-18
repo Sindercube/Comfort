@@ -1,0 +1,13 @@
+name = "Farmer's Bundle of Joy"
+filename = "../../FarmersBundleOfJoy_1.18.2-v1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0d04b1495ccddb1ac6a90bbaae1683a7198c80bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3916637
+project-id = 655803

@@ -1,0 +1,5 @@
+
+["NoTimeOutNoMore Config File!"]
+	#Set Time-Out time in seconds: 
+	"Default is 30 seconds (Decimals like half a second are acceptable!)" = 30.0
+

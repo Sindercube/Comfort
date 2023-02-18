@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "return_scroll",
+    "pattern": [
+        " P ",
+        "SPS",
+        " P "
+    ],
+    "key": {
+        "S": { "item": "minecraft:stick" },
+        "P": { "item": "minecraft:paper" }
+    },
+    "result": {
+        "item": "waystones:return_scroll",
+        "count": 6
+    }
+}

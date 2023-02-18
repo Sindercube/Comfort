@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "warp_scroll",
+    "pattern": [
+        "ESE",
+        "PPP",
+        "ESE"
+    ],
+    "key": {
+        "E": { "item": "minecraft:ender_pearl" },
+        "S": { "item": "minecraft:stick" },
+        "P": { "item": "minecraft:paper" }
+    },
+    "result": {
+        "item": "waystones:warp_scroll",
+        "count": 4
+    }
+}

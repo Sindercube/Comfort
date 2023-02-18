@@ -1,0 +1,8 @@
+name = "Create: Central Kitchen"
+filename = "../../create_central_kitchen-1.18.2-for-create-0.5.0.i-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen/download/4383143/file"
+hash-format = "md5"
+hash = "267411641c92152841769b35eafe7cc6"

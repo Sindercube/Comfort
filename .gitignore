@@ -1,0 +1,4 @@
+.packwizignore
+build/
+packwiz.json
+.zip

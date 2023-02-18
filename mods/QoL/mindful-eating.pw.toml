@@ -1,0 +1,13 @@
+name = "Mindful Eating"
+filename = "../mindful-eating-1.18.2-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "403caf60b359d0fd0a22808759bc615c8327fc1a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4376136
+project-id = 476019

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "warp_stone",
+    "pattern": [
+        "WOW",
+        "ODO",
+        "WOW"
+    ],
+    "key": {
+        "W": { "item": "waystones:warp_dust" },
+        "O": { "item": "minecraft:obsidian" },
+        "D": { "item": "minecraft:diamond" }
+    },
+    "result": {
+        "item": "waystones:warp_stone"
+    }
+}

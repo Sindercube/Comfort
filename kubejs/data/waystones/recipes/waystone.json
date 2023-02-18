@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SWS",
+        "SOS"
+    ],
+    "key": {
+        "S": { "tag": "forge:stone" },
+        "W": { "item": "waystones:warp_stone" },
+        "O": { "item": "minecraft:obsidian" }
+    },
+    "result": {
+        "item": "waystones:waystone"
+    }
+}

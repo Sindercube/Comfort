@@ -1,0 +1,181 @@
+on: 
+  push:
+    tags:
+      - '*'
+  workflow_dispatch:
+
+concurrency:
+  group: "build"
+  cancel-in-progress: true
+
+env:
+  PROJECT_ID: "815773"
+
+jobs:
+
+  changelog:
+    runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.changelog.outputs.changelog }}
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate changelog
+        id: changelog
+        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: CHANGELOG.md
+          stripGeneratorNotice: true
+
+      - name: Store changelog
+        uses: actions/upload-artifact@v2
+        with:
+          name: changelog
+          path: CHANGELOG.md
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [modpack-info]
+    steps:
+
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.18.2'
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Download Packwiz
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          workflow: go.yml
+          repo: packwiz/packwiz
+          name: Linux 64-bit x86
+
+    # - name: Download Packwiz Bootloader
+    #   uses: robinraju/release-downloader@v1.7
+    #   with: 
+    #     repository: "packwiz/packwiz-installer-bootstrap"
+    #     tag: "v0.0.3"
+    #     fileName: "packwiz-installer-bootstrap.jar"
+    #     token: ${{ secrets.MY_TOKEN }}
+    #     out-file-path: "multimc"
+
+    # - name: Change Pack Title
+    #   run: |
+    #     echo '{"changeTitle": true, "windowTitle": "Comfort ${{ needs.modpack-info.outputs.tag }}", "changeIcons": true, "icon16x16": "16.png", "icon32x32": "32.png"}' > config/WindowTitleChanger/config.json5
+
+      - name: Build Packs
+        run: |
+          chmod +x packwiz
+          bash .github/workflows/build.sh
+          mv build/client.zip "build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip"
+          mv build/server.zip "build/${{ needs.modpack-info.outputs.projectname }}-Server-${{ needs.modpack-info.outputs.tag }}.zip"
+        # mv build/multimc.zip "build/${{ needs.modpack-info.outputs.projectname }}-MultiMC-${{ needs.modpack-info.outputs.tag }}.zip"
+
+      - name: Upload Packs
+        uses: actions/upload-artifact@v2
+        with:
+          name: modpack
+          path: build/*.zip
+
+  modpack-info:
+    runs-on: ubuntu-latest
+    outputs:
+      projectname: ${{ steps.info.outputs.projectname }}
+      version: ${{ steps.info.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get Modpack Info
+        id: info
+        run: |
+          files=`head -3 pack.toml`
+          len=($files)
+          for((n=0;n<${#len[@]};n+=3)); do
+            data=($files)
+            key=${data[n]}
+            value=${data[n+2]}
+            value=`echo $value | sed 's/"//g'`
+            printf -v "${key}" "%s" "${value}"
+          done
+
+          echo "::set-output name=projectname::$name"
+          echo "::set-output name=version::$version"
+
+      - name: Get Tag
+        id: version
+        uses: actions-ecosystem/action-get-latest-tag@v1 #WyriHaximus/github-action-get-previous-tag@v1
+
+  release-github:
+    runs-on: ubuntu-latest
+    needs: [build, changelog, modpack-info]
+    steps:
+
+      - name: Download Files
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+
+      - name: Download Changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
+
+      - name: Update Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body_path: CHANGELOG.md
+          files: "*.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  release-curseforge:
+    runs-on: ubuntu-latest
+    needs: [build, changelog, modpack-info]
+    steps:
+
+      - name: Download Modpack
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+
+      - name: Download Changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
+
+      - name: Get Release Type
+        id: release-type
+        run: |
+          rel_type="release"
+          case "${{ needs.modpack-info.outputs.tag }}" in
+            *alpha*) rel_type="alpha" ;;
+            *beta*) rel_type="beta" ;;
+            *) rel_type="release" ;;
+          esac
+          echo "::set-output name=type::$rel_type"
+
+      - name: Create Release
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{ secrets.CF_API_TOKEN }}
+          project_id: 815773
+          game_endpoint: minecraft
+          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          changelog: ${{ needs.changelog.outputs.changelog }}
+          changelog_type: markdown
+          game_versions: "[8830, 9008, 9680]" #"Minecraft 1.18:1.18.2,Java 17,Forge"
+          release_type: release

@@ -1,0 +1,13 @@
+name = "SectionProtection"
+filename = "../sectionprotection-1.18.2-1.0.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "cd1264083e84c386ab79be2be0173f9a420c4355"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3983552
+project-id = 624049

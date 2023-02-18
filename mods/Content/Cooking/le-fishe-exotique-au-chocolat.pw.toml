@@ -1,0 +1,13 @@
+name = "Le Fishe Exotique Au Chocolat"
+filename = "../../le_fishe_au_chocolat-1.18.2-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bce416839897c29f445173e771ea478723e98bd0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4174119
+project-id = 736903

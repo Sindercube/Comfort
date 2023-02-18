@@ -1,0 +1,13 @@
+name = "Haunted Harvest"
+filename = "../hauntedharvest-1.18.2-1.7.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8813f04c74d67e426743b8db405cc9af01bf8a72"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3827627
+project-id = 541753

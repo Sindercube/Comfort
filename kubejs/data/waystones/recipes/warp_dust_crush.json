@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "group": "minecraft:misc",
+    "processingTime": 50,
+    "ingredients": [
+        {
+            "item": "minecraft:ender_pearl"
+        }
+    ],
+    "results": [
+        {
+            "item": "waystones:warp_dust",
+            "count": 4
+        },
+        {
+            "item": "waystones:warp_dust",
+            "count": 2,
+            "chance": 0.25
+        }
+    ]
+}

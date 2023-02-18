@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SWS",
+        "WFW",
+        "SWS"
+    ],
+    "key": {
+        "S": { "tag": "forge:stone" },
+        "W": { "item": "waystones:warp_dust" },
+        "F": { "item": "minecraft:flint" }
+    },
+    "result": {
+        "item": "waystones:warp_plate"
+    }
+}

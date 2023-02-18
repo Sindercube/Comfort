@@ -1,0 +1,13 @@
+name = "Comfort"
+author = "Sindercube"
+version = "null"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "14104db60f8f39489ffd8a8571dc4a2784644efc3377f7e1c0aa98f80ef5176f"
+
+[versions]
+forge = "40.2.0"
+minecraft = "1.18.2"

@@ -1,0 +1,3 @@
+These textures were created by MythrilBagels for their Bagels' Palette Blocks
+But due to the modpack already having a lot of these blocks, only the textures from Bagels' Palette Blocks are used
+Bagels' Palette Blocks can be found on curseforge at https://www.curseforge.com/minecraft/mc-mods/bagels-palette-blocks/

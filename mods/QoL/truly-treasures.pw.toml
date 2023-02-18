@@ -1,0 +1,13 @@
+name = "Truly Treasures"
+filename = "../trulytreasures-forge-1.18.1-2.2.3.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "ac7feeece971172aa5731f5edb31a92cb14a203a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3579378
+project-id = 508348

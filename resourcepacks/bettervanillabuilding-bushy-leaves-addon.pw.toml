@@ -1,0 +1,13 @@
+name = "Bushy Biomes"
+filename = "Bushy Biomes.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "45aa49c17cdd1369f8d85e630fb77403b306e37e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4117808
+project-id = 393803
