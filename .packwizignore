@@ -6,6 +6,9 @@ build/
 /assets/
 multimc/
 
+mods/*
+!mods/*.pw.toml
+
 icon.png
 packwiz.json
 readme.md
