@@ -1,0 +1,9 @@
+autoJump:false
+realmsNotifications:false
+showSubtitles:true
+darkMojangStudiosBackground:true
+tutorialStep:none
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.unknown
+key_key.personality.crawl:key.keyboard.x
