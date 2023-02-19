@@ -1,23 +1,6 @@
 const keptItems = [
-    /_sword$/,
-    /_shovel$/,
-    /_axe$/,
-    /_pickaxe$/,
-    /_hoe$/,
-    /_helmet$/,
-    /_chestplate$/,
-    /_leggings$/,
-    /_boots$/,
-    /shield/,
-    /bow/,
-    /compass/g,
-    /clock/,
-    /spyglass/,
-    /shears/,
-    /_rod$/,
-    /_stick$/,
-    /trident/,
-    /ender_chest/
+    /ender_chest$/,
+    /spyglass$/,
 ]
 
 function randLocation() {
@@ -30,12 +13,17 @@ onEvent('entity.death', event => {
 
     for (let i = 0; i < 46; i++) {
         let item = event.entity.inventory.get(i)
+        event.entity.tell(item)
         if (item.isEmpty()) continue
 
         let isKept = false
         for (let kept of keptItems) {
             if (kept.test(item.id)) isKept = true
         }
+        let itemStack = Item.of(item.id).itemStack
+        if (itemStack.maxDamage > 1) isKept = true
+        //if (itemStack.maxStackSize == 1) isKept = true
+
         if (isKept) continue
 
         let drop = event.entity.level.createEntity('minecraft:item')
@@ -58,4 +46,11 @@ onEvent('entity.death', event => {
     }
     event.entity.xp = 0
 
+})
+
+onEvent('server.load', event => {
+    if (event.server.persistentData.firstLoad) return
+    event.server.persistentData.firstLoad = true
+
+    event.server.runCommand('gamerule keepInventory true')
 })
