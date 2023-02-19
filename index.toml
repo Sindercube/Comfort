@@ -261,8 +261,8 @@ file = "kubejs/assets/packmenu/buttons/mods.json"
 hash = "b99df335a213afe97f3f73d7e131f0b233e976097d877395f989bdd5b4626ca6"
 
 [[files]]
-file = "kubejs/assets/packmenu/buttons/multiplayer.json.off"
-hash = "a6e1056ec4157a707caebac2c8a87268b70bedadb590a17e7e2cb47726c56a06"
+file = "kubejs/assets/packmenu/buttons/multiplayer.json"
+hash = "0e561a9803ad8a4785a5734848c52e28975618d8de077b02ec959c06a8161662"
 
 [[files]]
 file = "kubejs/assets/packmenu/buttons/options.json"
@@ -277,8 +277,8 @@ file = "kubejs/assets/packmenu/buttons/reloadbutton.json"
 hash = "f4ccac9f92aa430f9b22510e8d0bfc796043725698548eabfd2da4e2d0f9cc55"
 
 [[files]]
-file = "kubejs/assets/packmenu/buttons/singleplayer.json.off"
-hash = "9ba20b6a05cfb0b08d0284c8befe1fbd1b888a618747dc6f78cc6061fbd6d0bf"
+file = "kubejs/assets/packmenu/buttons/singleplayer.json"
+hash = "dde1422c3f5c218052bae15324f06a819a1403bf6cd44ccc35f0dfd5766390fd"
 
 [[files]]
 file = "kubejs/assets/packmenu/lang/en_us.json"
@@ -458,7 +458,7 @@ hash = "696f83fe1b6d1778bba0e23b787a8ac0629f73766a0f267c5e803b1d9855055d"
 
 [[files]]
 file = "kubejs/server_scripts/keep_gear.js"
-hash = "3314828c2b9eaa0fb1077f78336fcb6e0d235e4eac49ed444924950fc8d1107a"
+hash = "bd5c519f5d19305d6dfab321de48ddbb8a92c5946963200bf1356615650228f2"
 
 [[files]]
 file = "kubejs/server_scripts/remove_recipes.js"
@@ -471,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/Content/Automating/create-central-kitchen.pw.toml"
-hash = "d28728261d73658e3da64ed128790bf468261a0271a230191ea2fc310e21cfe8"
+hash = "aecd4b9aabb90cc7b674ee20c0e29e6cdb1f56243c0b8693af73291f66eb6157"
 metafile = true
 
 [[files]]
@@ -805,6 +805,11 @@ hash = "9682f57fda50577235f1b267983cf3cf3ad079f0a0ce85bcd51801627cdca54f"
 metafile = true
 
 [[files]]
+file = "mods/Performance/canary.pw.toml"
+hash = "d0f34eb2868c778beb571b602ca748c6f5b13d3a6bd80cb38a45b38bd1a02871"
+metafile = true
+
+[[files]]
 file = "mods/Performance/fastload.pw.toml"
 hash = "a9bad1a1c6b2b769b7e021fc02100e3a98fdb2d529fa0cfacacabea8cffc9a26"
 metafile = true
@@ -855,9 +860,8 @@ hash = "384de2997d20ca6233c8e902bd15a3cd2edd064c8e5bf52e30e27b94a5cdbdf6"
 metafile = true
 
 [[files]]
-file = "mods/QoL/chat-heads.pw.toml"
+file = "mods/QoL/chat-heads.pw.toml.idk"
 hash = "390c6e370fd4ce80fcd869127cbac24a62e24b730a1fea50473a3e6964d2f490"
-metafile = true
 
 [[files]]
 file = "mods/QoL/configured.pw.toml"
@@ -875,14 +879,8 @@ hash = "9d1b66495d32ce97f17b3a9fbf60a2798b4baf6cd17f84639ecd8aa92231ac89"
 metafile = true
 
 [[files]]
-file = "mods/QoL/diet.pw.toml"
+file = "mods/QoL/diet.pw.toml.maybe"
 hash = "c7fb2c106181c72e53e4d6b1b154283f770907758748f07609d1f09253807231"
-metafile = true
-
-[[files]]
-file = "mods/QoL/ding.pw.toml"
-hash = "4456003cd0b38e66d2a922b66138134dba4c3ef3858c56d41e536223f0880b97"
-metafile = true
 
 [[files]]
 file = "mods/QoL/double-slabs.pw.toml"
@@ -921,17 +919,21 @@ metafile = true
 
 [[files]]
 file = "mods/QoL/lucent.pw.toml"
-hash = "70bf714d6104a25084d1832c1cc64f6f3dd88eccbea52adf593b23603c669125"
+hash = "04abb0d375cc10e40734363a98773b88b292a79a02ffbedb4b864a4689afbf19"
 metafile = true
 
 [[files]]
-file = "mods/QoL/mindful-eating.pw.toml"
+file = "mods/QoL/mindful-eating.pw.toml.maybe"
 hash = "5e85b81c562bed4bf0432c8d8d0ae9a8d01e0d367fd6d14e036f719b34f96102"
-metafile = true
 
 [[files]]
 file = "mods/QoL/mouse-tweaks.pw.toml"
 hash = "1f737c46e4fbf798c1c132777c993b0d25e3bcba4740b726b929d80269a6c4d1"
+metafile = true
+
+[[files]]
+file = "mods/QoL/my-server-is-compatible.pw.toml"
+hash = "fd551e84b810dee42113c21dfd29c42b94d1d1db1adde54cedbf5e380b560379"
 metafile = true
 
 [[files]]
@@ -941,7 +943,7 @@ metafile = true
 
 [[files]]
 file = "mods/QoL/ok-zoomer-forge.pw.toml"
-hash = "cced33d84a2fd5d709a2a524f52b2faa49c4735a5c2cdca00c4011cdfb8df9ee"
+hash = "756db8750a11c141cba60dade950201835c0c4204e40458d6da5aa7b65705e85"
 metafile = true
 
 [[files]]
@@ -970,9 +972,8 @@ hash = "d851eb5d292f99325ec681c39c9bfc1ef1bb657847aa9de0769033d9371364cd"
 metafile = true
 
 [[files]]
-file = "mods/QoL/wthit-forge.pw.toml"
+file = "mods/QoL/wthit-forge.pw.toml.eh"
 hash = "1f0484fc7eccf393fd6df4a5b55bbc034b13143547e56eeaa8491551f20cb043"
-metafile = true
 
 [[files]]
 file = "mods/Server/ai-improvements.pw.toml"
@@ -985,13 +986,8 @@ hash = "20f92f6d5c885ceac238fbde2bb95bdab46f7ef18ecd8fd0f0d6d7ae3873ac2d"
 metafile = true
 
 [[files]]
-file = "mods/Server/canary.pw.toml"
-hash = "b46cc7c40a0baf0aac32465ea12bd92888e3c5781843de02f182e3e9b7868b70"
-metafile = true
-
-[[files]]
 file = "mods/Server/default-server-properties.pw.toml"
-hash = "e926f748970a07b5de9f72e804c4888dd35a45d9fdd0d5c6895408adde3562f6"
+hash = "7b3fed2b59f3ab3fef000fd915732f2c2dcee09f7963005595f79c4aecc4bb16"
 metafile = true
 
 [[files]]
@@ -1000,9 +996,8 @@ hash = "9743ce42caddb226af862f401c1c9766bb60e3563ac04a4cddc88d9ebc8114ba"
 metafile = true
 
 [[files]]
-file = "mods/Server/dynmapforge.pw.toml"
+file = "mods/Server/dynmapforge.pw.toml.maybe"
 hash = "61d53d8642fe1e2e9155919aa92aea03f5627623544bcbf006b9f8021f20d0b5"
-metafile = true
 
 [[files]]
 file = "mods/Server/login-protection.pw.toml"
