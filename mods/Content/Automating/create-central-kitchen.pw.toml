@@ -1,8 +1,13 @@
 name = "Create: Central Kitchen"
-filename = "../../create_central_kitchen-1.18.2-for-create-0.5.0.i-1.0.2.jar"
+filename = "../../create_central_kitchen-1.18.2-for-create-0.5.0.i-1.2.0.jar"
 side = "both"
 
 [download]
-url = "https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen/download/4383143/file"
-hash-format = "md5"
-hash = "267411641c92152841769b35eafe7cc6"
+hash-format = "sha1"
+hash = "e26404c04fffb75d6e07bf33c35defa15a42477c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4402482
+project-id = 820977
