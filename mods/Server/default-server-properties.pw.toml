@@ -1,0 +1,13 @@
+name = "Default Server Properties"
+filename = "../default-server-properties-1.0.1-build.10+mc1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a521abc9ba1eabb4eadd54edd0133d0f44474f4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4377553
+project-id = 676811

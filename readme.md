@@ -45,6 +45,7 @@ Looking for a server to play on? Join the Comfort SMP at `comfort.sindercu.be`!
 - [Environmental]
 - [Infernal Expansion]
 - [Haunted Harvest]
+- [Mannequins](https://www.curseforge.com/minecraft/mc-mods/mannequins)
 - [ComputerCraft: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked)
 - [Continents](https://www.curseforge.com/minecraft/mc-mods/continents)
 - [Domestication Innovation](https://www.curseforge.com/minecraft/mc-mods/domestication-innovation)
