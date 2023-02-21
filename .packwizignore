@@ -13,3 +13,6 @@ icon.png
 packwiz.json
 readme.md
 CNAME
+
+_site
+.jekyll-cache/
