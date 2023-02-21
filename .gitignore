@@ -1,6 +1,6 @@
 build/
 packwiz.json
-.zip
+*.zip
 
 _site
 .jekyll-cache/
