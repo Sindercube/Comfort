@@ -29,6 +29,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: CHANGELOG.md
           stripGeneratorNotice: true
+          onlyLastTag: true
+          stripHeaders: true
 
       - name: Store changelog
         uses: actions/upload-artifact@v2
