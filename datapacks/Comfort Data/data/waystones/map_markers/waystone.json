@@ -1,0 +1,7 @@
+{
+  "id": "waystones:waystone",
+  "target_block": {
+    "block": "waystones:waystone",
+    "predicate_type": "minecraft:block_match"
+  }
+}

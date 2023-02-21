@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RR",
+        "RR"
+    ],
+    "key": {
+        "R": { "item": "supplementaries:rope:rope" }
+    },
+    "result": {
+        "item": "farmersdelight:safety_net"
+    }
+}

@@ -6,6 +6,7 @@ let hiddenItems = [
     'waystones:warp_dust',
     'waystones:warp_plate',
     'incubation:fried_egg',
+    'farmersdelght:rope'
 ]
 
 Color.DYE.forEach(color => {

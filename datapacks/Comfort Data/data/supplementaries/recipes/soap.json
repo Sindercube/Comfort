@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "minecraft:water_bucket" },
+        { "item": "minecraft:pink_dye" },
+        { "item": "immersive_weathering:ash_layer_block" },
+        { "item": "immersive_weathering:ash_layer_block" },
+        { "item": "immersive_weathering:tallow" },
+        { "item": "immersive_weathering:tallow" }
+    ],
+    "result": {
+        "item": "supplementaries:soap",
+        "count": 6
+    },
+    "conditions": [
+        { "type": "supplementaries:flag", "flag": "soap" }
+    ]
+}
+

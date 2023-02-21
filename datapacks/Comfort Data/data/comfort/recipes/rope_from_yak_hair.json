@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "Y",
+        "Y",
+        "Y"
+    ],
+    "key": {
+        "Y": { "item": "environmental:yak_hair" }
+    },
+    "result": {
+        "item": "supplementaries:flax",
+        "count": 2
+    }
+}
