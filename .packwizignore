@@ -8,6 +8,7 @@ multimc/
 
 mods/*
 !mods/*.pw.toml
+!mods/*.jar
 
 icon.png
 packwiz.json
