@@ -1,0 +1,7 @@
+name = "Hybrid Beta"
+filename = "Hybrid Beta 1.18.2 v0.8.3.zip"
+
+[download]
+url = "https://cdn.modrinth.com/data/Jmx5kJiS/versions/TXriww2y/Hybrid%20Beta%201.18.2%20v0.8.3.zip"
+hash-format = "sha1"
+hash = "1935ed97a45ba0f5987d41a9dae1eb4ca1053c78"
