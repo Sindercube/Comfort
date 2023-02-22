@@ -330,6 +330,10 @@ file = "kubejs/README.txt"
 hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
 
 [[files]]
+file = "kubejs/assets/packmenu/textures/gui/logo.png"
+hash = "98e76a0dc4c1570a127248d4c4b53c67d707a5aaec265860ab982b95b277186b"
+
+[[files]]
 file = "kubejs/client_scripts/hide_items.js"
 hash = "b5d32a4cd9f92753b97e05bf30aee45da4e4028fa1310972d61ae6226106b04a"
 
