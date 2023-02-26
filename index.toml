@@ -221,8 +221,24 @@ file = "datapacks/Comfort Data/data/comfort/recipes/rope_from_yak_hair.json"
 hash = "76d297bbcdee25ba05689695b388470eab0808590b6e2569cd1f40c3b8ef6354"
 
 [[files]]
+file = "datapacks/Comfort Data/data/computercraft/recipes/floppy_disk.json"
+hash = "54c5095122fa09af864857ecb2578a64f6ee1d6ad78377dc73d66676df4b9ad5"
+
+[[files]]
 file = "datapacks/Comfort Data/data/create/recipes/crafting/kinetics/rope_pulley.json"
 hash = "3ec55bf8760b330ce0c334e6fbce5c44e1b9f48074851d0d5053b9923cf65e3e"
+
+[[files]]
+file = "datapacks/Comfort Data/data/farmersdelight/recipes/fried_egg.json"
+hash = "0275f140b997d3ccd33d7b2096c161d254bad88e83b878119b2ebefbbf3f0843"
+
+[[files]]
+file = "datapacks/Comfort Data/data/farmersdelight/recipes/fried_egg_from_campfire_cooking.json"
+hash = "fbd8c823fd63e4a049ff91534650e3d9bee86d2436594969445699d5505fe798"
+
+[[files]]
+file = "datapacks/Comfort Data/data/farmersdelight/recipes/fried_egg_from_smoking.json"
+hash = "fbaa5d739045670bb3b2b3748829f75bd58a76aed0465f8a5922ce159d9fa523"
 
 [[files]]
 file = "datapacks/Comfort Data/data/farmersdelight/recipes/rope.json"
@@ -285,10 +301,6 @@ file = "datapacks/Comfort Data/data/waystones/recipes/warp_dust_mill.json"
 hash = "ae599c4599e40b7bf6bddf0ee0ffbfefec6d417048d3eeff84e248cb85411bc0"
 
 [[files]]
-file = "datapacks/Comfort Data/data/waystones/recipes/warp_plate.json.disabled"
-hash = "facd2bb22e97560c8996f947afd3e1d8714945bceac326665450492c75149489"
-
-[[files]]
 file = "datapacks/Comfort Data/data/waystones/recipes/warp_scroll.json"
 hash = "019b40acfc04ad15cbf75f33c355359d35e2d73a4ac06796cdae88bfd54715f0"
 
@@ -335,7 +347,7 @@ hash = "98e76a0dc4c1570a127248d4c4b53c67d707a5aaec265860ab982b95b277186b"
 
 [[files]]
 file = "kubejs/client_scripts/hide_items.js"
-hash = "b5d32a4cd9f92753b97e05bf30aee45da4e4028fa1310972d61ae6226106b04a"
+hash = "963b9af45730362745a3f379b0ad8ebe136eb8d72ce5856e3078564f88de5630"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -359,11 +371,11 @@ hash = "696f83fe1b6d1778bba0e23b787a8ac0629f73766a0f267c5e803b1d9855055d"
 
 [[files]]
 file = "kubejs/server_scripts/keep_gear.js"
-hash = "b5436cb06141974f414b920d3be1268f64f4b0268ba5a2d4a507b4afa66db529"
+hash = "050be10709fdbea9e0eebb3de956a0a67fe5f510765a5f0e4886841a4ba2ba00"
 
 [[files]]
 file = "kubejs/server_scripts/remove_recipes.js"
-hash = "cafc2a54ff9ab1d50c4353870a4f42053e0981dd0b355054a2e7590b4d5aa111"
+hash = "9fe898c620430665cf5b46de2ac02741173d4fb596a2c9171fc7c3f748edd8ac"
 
 [[files]]
 file = "mods/Content/Automating/cccbridge.pw.toml"
@@ -566,6 +578,11 @@ hash = "05f0a08d58b53d73230663984cbc2ad514a43efccd6d090f35fc15f58a7ac2a1"
 metafile = true
 
 [[files]]
+file = "mods/Content/pitch-perfect.pw.toml"
+hash = "32cfd24bcb3f01681da76ecfbabb7cc278371aeddc6741aa805e35b38c28a4fc"
+metafile = true
+
+[[files]]
 file = "mods/Content/quark.pw.toml"
 hash = "17dbdf7f02fb16b33012352a346cfbf4220fa82188425ffadc7404af4035ea5a"
 metafile = true
@@ -707,42 +724,57 @@ metafile = true
 
 [[files]]
 file = "mods/Performance/canary.pw.toml"
-hash = "d0f34eb2868c778beb571b602ca748c6f5b13d3a6bd80cb38a45b38bd1a02871"
+hash = "1334f15343b976c1064c55af082bbfa9c1cce1778d0017769ec681f9f03ec26e"
 metafile = true
 
 [[files]]
 file = "mods/Performance/fastload.pw.toml"
-hash = "a9bad1a1c6b2b769b7e021fc02100e3a98fdb2d529fa0cfacacabea8cffc9a26"
+hash = "ed29cb6327c67df69f98e63603c45e9f834e0dec9b371c9e3116111b5c67979b"
 metafile = true
 
 [[files]]
 file = "mods/Performance/ferritecore.pw.toml"
-hash = "db658559680a7360d3fb08dd11bee39e6624a34189f547b090d07751e17958d6"
+hash = "25d0c449a4a6e2992be5159794d33f2ae787bfe0b7b37b0b62302f3951491814"
 metafile = true
 
 [[files]]
 file = "mods/Performance/lazy-dfu-forge.pw.toml"
-hash = "1261fdbccf355a4c905e866bb3f9a1329763f73d209e260b76dfbdee381706a3"
+hash = "303eda2d9e0f036a8c2f9e3083d576ea6191c2d19376e02beac6beb94c6477e8"
+metafile = true
+
+[[files]]
+file = "mods/Performance/lightspeedmod.pw.toml"
+hash = "bdb91efd7b328c624ea0d527f788aba6fdc2688a41f9743798a438b909915738"
+metafile = true
+
+[[files]]
+file = "mods/Performance/out-of-sight.pw.toml"
+hash = "11ab4042f4f078fe70a32b2c0ee71c34ab22c4afe56a12034732e35a16fbf615"
 metafile = true
 
 [[files]]
 file = "mods/Performance/rubidium.pw.toml"
-hash = "5b8b66d85853a9b07a8df4d9f44546ed1c2b8d8617e99ae2edc954b052f51de1"
+hash = "0bac64f54e9ab32b3448946aaa4ad1c1ad78e981a109054ad566059ad35b84d1"
 metafile = true
 
 [[files]]
 file = "mods/Performance/saturn.pw.toml"
-hash = "ef7b55ce8d448cd9b9d3270f210cea0dc6aee3c73008d367faa46ee5a0eb02c8"
+hash = "110a657c8c3e063f83f5a97f7cfd81defa30c19794bf01a09bf0bd8dc8a48d65"
 metafile = true
 
 [[files]]
 file = "mods/Performance/smooth-boot-reloaded.pw.toml"
-hash = "44336a8cbc2c8b59ae3d030a2d1ee8f9ee4577663f2aea4f76953b32ad59ac9a"
+hash = "4dbaa42c334d30a13fc0d2ac83fedc20a3d0c79093cd92f87aba9ed02cbc2bed"
 metafile = true
 
 [[files]]
 file = "mods/Performance/starlight-forge.pw.toml"
-hash = "7e8cab4865c531ff25ec2ee1fadc331ee0ed23728f42e5b990678d408b42fb4d"
+hash = "a20fdfd6bd919e708c79be3febf955ff62c213b209c075e6fcf27b6f631ccb8c"
+metafile = true
+
+[[files]]
+file = "mods/QoL/advancement-trophies.pw.toml"
+hash = "e01547e01fc1148bde035d2b0c8cd84f330ba8600d471e7976a34f89ffd0ad67"
 metafile = true
 
 [[files]]
@@ -761,10 +793,6 @@ hash = "384de2997d20ca6233c8e902bd15a3cd2edd064c8e5bf52e30e27b94a5cdbdf6"
 metafile = true
 
 [[files]]
-file = "mods/QoL/chat-heads.pw.toml.idk"
-hash = "390c6e370fd4ce80fcd869127cbac24a62e24b730a1fea50473a3e6964d2f490"
-
-[[files]]
 file = "mods/QoL/configured.pw.toml"
 hash = "16ff1a0c7742dee852ec38a274cb6b68a8e878be5bc56ddbe68362e6201a3bf1"
 metafile = true
@@ -778,10 +806,6 @@ metafile = true
 file = "mods/QoL/cosmetic-armor-reworked.pw.toml"
 hash = "9d1b66495d32ce97f17b3a9fbf60a2798b4baf6cd17f84639ecd8aa92231ac89"
 metafile = true
-
-[[files]]
-file = "mods/QoL/diet.pw.toml.maybe"
-hash = "c7fb2c106181c72e53e4d6b1b154283f770907758748f07609d1f09253807231"
 
 [[files]]
 file = "mods/QoL/double-slabs.pw.toml"
@@ -827,10 +851,6 @@ metafile = true
 file = "mods/QoL/lucent.pw.toml"
 hash = "04abb0d375cc10e40734363a98773b88b292a79a02ffbedb4b864a4689afbf19"
 metafile = true
-
-[[files]]
-file = "mods/QoL/mindful-eating.pw.toml.maybe"
-hash = "5e85b81c562bed4bf0432c8d8d0ae9a8d01e0d367fd6d14e036f719b34f96102"
 
 [[files]]
 file = "mods/QoL/mouse-tweaks.pw.toml"
@@ -883,10 +903,6 @@ hash = "d851eb5d292f99325ec681c39c9bfc1ef1bb657847aa9de0769033d9371364cd"
 metafile = true
 
 [[files]]
-file = "mods/QoL/wthit-forge.pw.toml.eh"
-hash = "1f0484fc7eccf393fd6df4a5b55bbc034b13143547e56eeaa8491551f20cb043"
-
-[[files]]
 file = "mods/Server/ai-improvements.pw.toml"
 hash = "3c41704f9583a60558226b1a744da34db3e8738021083ca74303011fd2d3bf43"
 metafile = true
@@ -905,10 +921,6 @@ metafile = true
 file = "mods/Server/dynamic-view.pw.toml"
 hash = "9743ce42caddb226af862f401c1c9766bb60e3563ac04a4cddc88d9ebc8114ba"
 metafile = true
-
-[[files]]
-file = "mods/Server/dynmapforge.pw.toml.maybe"
-hash = "61d53d8642fe1e2e9155919aa92aea03f5627623544bcbf006b9f8021f20d0b5"
 
 [[files]]
 file = "mods/Server/login-protection.pw.toml"
@@ -1035,10 +1047,6 @@ hash = "7ff3af6cc4c15cdfbb363b4285a42e4bfa07d68a68b6aba5e1aee832611e4db4"
 [[files]]
 file = "resourcepacks/Comfort Resources/assets/packmenu/textures/gui/reload.png"
 hash = "1c604f6b00f608a8fea51eca981db51980d06a9c847e643e59e439d932a4d766"
-
-[[files]]
-file = "resourcepacks/Comfort Resources/assets/packmenu/textures/gui/widgets.png"
-hash = "26a3d4b8a23b75fdb7a0c5e8b7835ce8bdf98873a81695dde9f7010845edfe8b"
 
 [[files]]
 file = "resourcepacks/Comfort Resources/assets/powertool/textures/item/powertool.png"

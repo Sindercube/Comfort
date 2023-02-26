@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-<a href="https://www.curseforge.com/minecraft/modpacks/comfort-smp"><img src="https://img.shields.io/badge/%20-Curseforge-*?style=for-the-badge&color=e1dcd7&logo=curseforge"></a>
-<a href="https://www.curseforge.com/minecraft/modpacks/comfort-smp"><img src="https://img.shields.io/badge/CF-Curseforge-*?style=for-the-badge&color=e1dcd7&logo=github"></a>
+<a href="https://curseforge.com/minecraft/modpacks/comfort-smp"><img src="https://img.shields.io/badge/Curseforge-*?label=&labelColor=555555&style=for-the-badge&color=e1dcd7&logo=curseforge"></a>
+<a href="https://github.com/Sindercube/Comfort"><img src="https://img.shields.io/badge/Github-*?label=&labelColor=555555&style=for-the-badge&color=e1dcd7&logo=github"></a>
 </p>
 
 # About
@@ -62,7 +62,7 @@ Every common material is renewable, allowing players to create factories which s
 # Mods
 
 <details>
-<summary><b>General</b></summary>
+<summary><b>General</b></summary><br>
 
 <ul>
     <li><a href="">Abnormals</a></li>
@@ -92,7 +92,7 @@ Every common material is renewable, allowing players to create factories which s
 ---
 
 <details>
-<summary><b>Building</b></summary>
+<summary><b>Building</b></summary><br>
 
 <ul>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/architects-palette">Architect's Palette</a></li>
@@ -111,7 +111,7 @@ Every common material is renewable, allowing players to create factories which s
 ---
 
 <details>
-<summary><b>Cooking</b></summary>
+<summary><b>Cooking</b></summary><br>
 
 <ul>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight</a>
@@ -132,7 +132,7 @@ Every common material is renewable, allowing players to create factories which s
 ---
 
 <details>
-<summary><b>Automating</b></summary>
+<summary><b>Automating</b></summary><br>
 
 <ul>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a>
