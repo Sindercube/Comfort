@@ -743,11 +743,6 @@ hash = "303eda2d9e0f036a8c2f9e3083d576ea6191c2d19376e02beac6beb94c6477e8"
 metafile = true
 
 [[files]]
-file = "mods/Performance/lightspeedmod.pw.toml"
-hash = "bdb91efd7b328c624ea0d527f788aba6fdc2688a41f9743798a438b909915738"
-metafile = true
-
-[[files]]
 file = "mods/Performance/out-of-sight.pw.toml"
 hash = "11ab4042f4f078fe70a32b2c0ee71c34ab22c4afe56a12034732e35a16fbf615"
 metafile = true
