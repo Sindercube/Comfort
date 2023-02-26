@@ -13,26 +13,19 @@ onEvent('entity.death', event => {
 
     for (let i = 0; i < 46; i++) {
         let item = event.entity.inventory.get(i)
-        event.entity.tell(item)
-        if (item.isEmpty()) continue
+        if (item.isEmpty()) return
 
-        let isKept = false
+        let skipped = false
         for (let kept of keptItems) {
-            if (kept.test(item.id)) isKept = true
+            if (kept.test(item.id)) skipped = true
         }
         let itemStack = Item.of(item.id).itemStack
-        if (itemStack.maxDamage > 1) isKept = true
-        //if (itemStack.maxStackSize == 1) isKept = true
+        if (itemStack.maxDamage > 1) skipped = true
+        //if (itemStack.maxStackSize == 1) skipped = true
+        if (skipped) continue
 
-        if (isKept) continue
-
-        let drop = event.entity.level.createEntity('minecraft:item')
-        drop.setItem(item)
-        drop.setPosition(event.entity.getX(), event.entity.getY() + 1, event.entity.getZ())
-        drop.setMotion(randLocation(), randLocation(), randLocation())
-        drop.spawn()
+        dropItem(item, event.entity)
         event.entity.inventory.set(i, 'minecraft:air')
-
     }
 
     for (let i = 0; i < 7; i++) {
@@ -46,7 +39,22 @@ onEvent('entity.death', event => {
     }
     event.entity.xp = 0
 
+    // easter eggs
+
+    if (event.entity.name == 'Heapons') {
+        const heapons_cube = Item.of('create_sa:heap_of_experience', `{display:{Name:'{"translate":"item.comfort.heapons_cube","italic":false}'}}`)
+        dropItem(heapons_cube, event.entity)
+    }
+
 })
+
+function dropItem(item, player) {
+    let drop = player.level.createEntity('minecraft:item')
+    drop.setItem(item)
+    drop.setPosition(player.getX(), player.getY() + 1, player.getZ())
+    drop.setMotion(randLocation(), randLocation(), randLocation())
+    drop.spawn()
+}
 
 onEvent('server.load', event => {
     if (event.server.persistentData.firstLoad) return
