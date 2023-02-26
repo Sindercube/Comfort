@@ -1,0 +1,13 @@
+name = "Advancement Trophies"
+filename = "../advancementtrophies-2.2-1.18.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11d5b2070e5fec4ab517714422f5f8952962d932"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4391832
+project-id = 628537

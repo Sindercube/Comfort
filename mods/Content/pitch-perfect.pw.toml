@@ -1,0 +1,13 @@
+name = "Pitch Perfect"
+filename = "../pitchperfect-1.18.2-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1dd50d8aed34e5859b6b7850d6433a5010d68f76"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4132823
+project-id = 382436
